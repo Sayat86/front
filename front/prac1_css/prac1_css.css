@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.parent1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.green {
+    background: green;
+    height: 150px;
+    width: 750px;
+}
+
+.red {
+    background: crimson;
+    width: 250px;
+    height: 200px;
+}
+
+.yellow {
+    background: yellow;
+    width: 500px;
+}

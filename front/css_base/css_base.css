@@ -1,0 +1,24 @@
+.box {
+    box-sizing: border-box;
+    width: 500px;
+    height: 220px;
+    margin: 35px auto;
+    padding: 25px;
+    border: 50px solid crimson;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: inset 0 0 35px rgba(0, 0, 0, .7);
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: line-through;
+    color: darkolivegreen;
+}
+
+.box.yellow {
+    background: yellow;
+}
+
+.box.green {
+    background: yellowgreen;
+}

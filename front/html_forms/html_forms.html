@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы в HTML</title>
+</head>
+<body>
+
+<form action="https://google.com" method="get">
+
+  <input type="text" name="login" placeholder="Введите логин ..." aria-label="Логин"/>
+  <br/>
+  <input type="password" name="password" placeholder="Введите пароль ..." aria-label="Пароль"/>
+  <br/>
+  <input type="text" name="company" value="Runtime" placeholder="Введите название компании"
+         aria-label="Название компании" disabled/>
+  <br/>
+  <input type="text" name="position" value="Разработчик" placeholder="Введите должность ..."
+         aria-label="Должность" readonly/>
+  <br/>
+  <label>
+    <input type="radio" name="radio_group_1" value="1.1"/>Radio вариант #1.1<br/>
+  </label>
+  <label>
+    <input type="radio" name="radio_group_1" value="1.2"/>Radio вариант #1.2<br/>
+  </label>
+  <label>
+    <input type="radio" name="radio_group_1" value="1.3"/>Radio вариант #1.3<br/>
+  </label>
+
+  <br/>
+
+  <label>
+    <input type="radio" name="radio_group_2" value="2.1"/>Radio вариант #2.1<br/>
+  </label>
+  <label>
+    <input type="radio" name="radio_group_2" value="2.2"/>Radio вариант #2.2<br/>
+  </label>
+  <label>
+    <input type="radio" name="radio_group_2" value="2.3"/>Radio вариант #2.3<br/>
+  </label>
+
+  <button type="submit">Отправить форму</button>
+
+</form>
+
+</body>
+</html>

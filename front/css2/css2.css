@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.parent {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    height: 600px;
+    background: yellow;
+}
+.child {
+    width: 120px;
+    height: 120px;
+    background: yellowgreen;
+    border: 10px dotted crimson;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color: darkolivegreen;
+    line-height: 100px;
+}

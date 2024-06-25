@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /*align-items: flex-start;*/
+    /*height: 100vh;*/
+    /*margin: 0;*/
+}
+
+.parent {
+    width: 1000px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /*align-items: flex-start;*/
+    /*margin-top: 50px;*/
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.green {
+    background: green;
+    height: 150px;
+    width: 600px;
+}
+
+.grey {
+    background: grey;
+    height: 150px;
+    width: 400px;
+}
+
+.orange {
+    background: orange;
+    width: 200px;
+    height: 75px;
+    position: absolute; /* Абсолютное позиционирование */
+    top: 40px; /* Положение сверху относительно родителя */
+    left: 0; /* Положение слева относительно родителя */
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.parent1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.red {
+    background: crimson;
+    width: 250px;
+    height: 400px;
+}
+
+.yellow {
+    background: yellow;
+    width: 750px;
+}
