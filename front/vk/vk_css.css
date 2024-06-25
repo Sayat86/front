@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: lightblue;
     margin: 0;
     padding: 0;
 }
@@ -8,14 +8,13 @@ body {
     height: 50px;
 }
 .inside {
-    /*background-color: orange;*/
     width: 1000px;
+    margin: auto;
     display: flex;
     justify-content: left;
-    align-items: center;
+    padding-top: 10px;
 }
 .white {
-    /*background-color: crimson;*/
     padding-right: 20px;
     text-align: center;
     font-size: 22px;
@@ -23,7 +22,6 @@ body {
     width: 120px;
 }
 .yellow {
-    /*background-color: yellow;*/
     width: 120px;
 }
 .yellow input[type="text"] {
@@ -31,4 +29,76 @@ body {
     border: 1px solid thistle;
     border-radius: 4px;
     padding: 5px;
+}
+.inside2 {
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+.parent_left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: left;
+    margin-right: 200px;
+}
+.center_left {
+    background-color: green;
+    text-align: center;
+    font-size: 130%;
+    font-weight: 600;
+    margin: 20px 20px;
+}
+.center_left2 {
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+.parent_right {
+    display: flex;
+    flex-direction: column;
+}
+.center_right {
+    background-color: white;
+    border-radius: 5px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    margin: 20px 10px;
+    padding-top: 40px;
+}
+.center_right input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 100px;
+    margin: 10px 10px;
+}
+.center_right2 {
+    background-color: white;
+    border-radius: 5px;
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    margin: 20px 10px;
+    padding-top: 20px;
+}
+.box {
+    background-color: blue;
+    width: 175px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.box2 {
+    background-color: green;
+    width: 175px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
 }
