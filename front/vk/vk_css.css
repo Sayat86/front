@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: lightblue;
     margin: 0;
@@ -45,37 +50,44 @@ body {
     margin-right: 200px;
 }
 .center_left {
-    background-color: green;
-    text-align: center;
+/*background-color: green;*/
+text-align: center;
     font-size: 130%;
     font-weight: 600;
     margin: 20px 20px;
 }
 .center_left2 {
-    background-color: yellowgreen;
-    text-align: center;
+/*background-color: yellowgreen;*/
+text-align: center;
 }
 
 .parent_right {
-    display: flex;
+/*background-color: green;*/
+display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 20px;
+    padding: 20px;
 }
 .center_right {
     background-color: white;
-    border-radius: 5px;
+border-radius: 5px;
     height: 200px;
     width: 300px;
-    text-align: center;
-    margin: 20px 10px;
+margin: 20px 10px;
     padding-top: 40px;
 }
 .center_right input[type="text"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    min-width: 100px;
+    min-width: 250px;
     margin: 10px 10px;
 }
+.in {
+    text-align: center;
+}
+
 .center_right2 {
     background-color: white;
     border-radius: 5px;
@@ -87,18 +99,62 @@ body {
 }
 .box {
     background-color: blue;
-    width: 175px;
+    width: 250px;
     display: inline-block;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
+    text-align: center;
     color: white;
+    text-decoration: none;
 }
 .box2 {
     background-color: green;
-    width: 175px;
+    width: 250px;
     display: inline-block;
     padding: 10px;
     border-radius: 5px;
     color: white;
+    text-decoration: none;
+}
+.box3 {
+    width: 250px;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: blue;
+    text-decoration: none;
+}
+.parent_center_left3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.center_left3 {
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+.parent_center_left4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.center_left4 {
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+.picture {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    padding-top: 10px;
 }
