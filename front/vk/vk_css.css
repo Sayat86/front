@@ -50,32 +50,35 @@ body {
     margin-right: 200px;
 }
 .center_left {
-/*background-color: green;*/
+/background-color: green;/
 text-align: center;
     font-size: 130%;
     font-weight: 600;
     margin: 20px 20px;
 }
 .center_left2 {
-/*background-color: yellowgreen;*/
+/background-color: yellowgreen;/
 text-align: center;
 }
 
 .parent_right {
-/*background-color: green;*/
+/background-color: green;/
 display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 20px 20px;
+margin: 20px 20px;
     padding: 20px;
 }
 .center_right {
     background-color: white;
+/*display: flex;*/
+/*flex-direction: column;*/
+/*justify-content: center;*/
+/*align-items: start;*/
+/*text-align: center;*/
 border-radius: 5px;
-    height: 200px;
     width: 300px;
 margin: 20px 10px;
-    padding-top: 40px;
+    padding: 40px 20px;
 }
 .center_right input[type="text"] {
     padding: 10px;
@@ -91,11 +94,10 @@ margin: 20px 10px;
 .center_right2 {
     background-color: white;
     border-radius: 5px;
-    height: 150px;
     width: 300px;
     text-align: center;
     margin: 20px 10px;
-    padding-top: 20px;
+    padding: 20px 20px;
 }
 .box {
     background-color: blue;
@@ -131,7 +133,7 @@ margin: 20px 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding-top: 10px;
 }
 .center_left3 {
     text-decoration: none;
@@ -144,7 +146,7 @@ margin: 20px 10px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 1px;
 }
 .center_left4 {
     text-decoration: none;
@@ -154,7 +156,71 @@ margin: 20px 10px;
 }
 .picture {
     display: flex;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     padding-top: 10px;
+}
+.more {
+
+}
+.more2 {
+    text-decoration: none;
+}
+.par_logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.picture_logo {
+    display: flex;
+    height: 60px;
+    width: 60px;
+}
+.par_qr {
+    display: flex;
+    flex-direction: row;
+}
+.picture_qr {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+.parent_qr {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.qr1 {
+    font-size: 90%;
+    font-weight: 700;
+}
+.inside3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+    padding-right: 45px;
+}
+.down1\.1 {
+    text-decoration: none;
+}
+.down2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.down2\.1 {
+    text-decoration: none;
+}
+.down3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.down3\.1 {
+    text-decoration: none;
 }
