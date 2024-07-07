@@ -52,9 +52,14 @@ body {
 .center_left {
 /background-color: green;/
 text-align: center;
+    justify-content: center;
+    text-align: center;
     font-size: 130%;
     font-weight: 600;
     margin: 20px 20px;
+}
+.text_center_left {
+    text-align: center;
 }
 .center_left2 {
 /background-color: yellowgreen;/
@@ -65,27 +70,23 @@ text-align: center;
 /background-color: green;/
 display: flex;
     flex-direction: column;
-margin: 20px 20px;
+    margin: 20px 20px;
     padding: 20px;
 }
 .center_right {
     background-color: white;
-/*display: flex;*/
-/*flex-direction: column;*/
-/*justify-content: center;*/
-/*align-items: start;*/
-/*text-align: center;*/
-border-radius: 5px;
+    border-radius: 5px;
     width: 300px;
-margin: 20px 10px;
+    margin: 20px 10px;
     padding: 40px 20px;
 }
 .center_right input[type="text"] {
-    padding: 10px;
+/*background-color: blue;*/
+padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     min-width: 250px;
-    margin: 10px 10px;
+/margin: 10px 10px;/
 }
 .in {
     text-align: center;
@@ -103,7 +104,8 @@ margin: 20px 10px;
     background-color: blue;
     width: 250px;
     display: inline-block;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
@@ -156,9 +158,20 @@ margin: 20px 10px;
 }
 .picture {
     display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.pic_one {
+    display: flex;
+    height: 380px;
+    width: 380px;
+    justify-content: flex-end;
+}
+.pic_two {
+    display: flex;
     height: 400px;
     width: 400px;
-    padding-top: 10px;
+    margin-left: -20px;
 }
 .more {
 
@@ -223,4 +236,10 @@ margin: 20px 10px;
 }
 .down3\.1 {
     text-decoration: none;
+}
+.telephon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 10px;
 }
