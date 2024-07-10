@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.box {
+    width: 400px;
+    height: 220px;
+    margin: 0 auto;
+    border: 15px dotted crimson;
+}
+.box.yellow {
+    background: yellow;
+}
+.box.green {
+    background: yellowgreen;
+    position: relative;
+    /*top: 70px;*/
+    /*left: 100px;*/
+    display: flex;
+}
+.sub {
+    width: 120px;
+    height: 120px;
+    border: 15px double crimson;
+}
+.sub.sub1 {
+    position: absolute;
+    background: #005bb5;
+    top: 300px;
+    right: 50px;
+}
+.sub.sub2 {
+    background: #4caf50;
+}
