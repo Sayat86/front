@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.p_tren2 {
+    background: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    gap: 20px;
+}
+.ppp {
+    /*background: #005bb5;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    position: relative;
+}
+.ttt {
+    background: #45a049;
+    border: 2px solid crimson;
+    width: 20px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
