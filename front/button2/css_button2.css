@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.button {
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 15px 10px 45px;
+    background: #005bb5;
+}
+.line_but {
+    background: crimson;
+    width: 10px;
+    height: 3px;
+    border-radius: 2px;
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    transition: width 0.3s;
+}
+.button:hover .line_but {
+    width: 25px;
+}
+.stroke {
+    border: 2px solid crimson;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    transition: width 0.3s;
+}
+.button:hover .stroke {
+    width: 95%;
+}
