@@ -112,6 +112,9 @@ padding: 10px;
     color: white;
     text-decoration: none;
 }
+.box:hover {
+    background: grey;
+}
 .box2 {
     background-color: green;
     width: 250px;
@@ -120,6 +123,10 @@ padding: 10px;
     border-radius: 5px;
     color: white;
     text-decoration: none;
+}
+.box2:hover {
+    color: yellow;
+    background-color: #005bb5;
 }
 .box3 {
     width: 250px;
@@ -130,6 +137,12 @@ padding: 10px;
     border-radius: 5px;
     color: blue;
     text-decoration: none;
+}
+.box3:hover {
+    border: 2px solid crimson;
+}
+.box3:active {
+    background-color: yellow;
 }
 .parent_center_left3 {
     display: flex;
@@ -143,6 +156,9 @@ padding: 10px;
     border-radius: 5px;
     padding: 5px;
 }
+.center_left3:hover {
+    background-color: white;
+}
 .parent_center_left4 {
     display: flex;
     flex-direction: row;
@@ -155,6 +171,9 @@ padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 5px;
+}
+.center_left4:hover {
+    background-color: white;
 }
 .picture {
     display: flex;
@@ -225,6 +244,9 @@ padding: 10px;
     justify-content: space-between;
     gap: 10px;
 }
+.down2\.1:hover {
+    color: green;
+}
 .down2\.1 {
     text-decoration: none;
 }
@@ -233,9 +255,15 @@ padding: 10px;
     flex-direction: row;
     justify-content: space-between;
     gap: 10px;
+    transition: 0.5s;
 }
 .down3\.1 {
     text-decoration: none;
+}
+.down3\.1:hover {
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 3px;
 }
 .telephon {
     display: flex;
