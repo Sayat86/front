@@ -5,13 +5,15 @@
     box-sizing: border-box;
 }
 .button {
-    display: flex;
+    display: inline-flex;
     position: relative;
     text-decoration: none;
     padding: 10px 15px 10px 45px;
-    background: #005bb5;
+    /*background: #005bb5;*/
 }
-.line_but {
+.button::before {
+    content: '';
+    display: block;
     background: crimson;
     width: 10px;
     height: 3px;
@@ -21,19 +23,21 @@
     left: 15px;
     transition: width 0.3s;
 }
-.button:hover .line_but {
+.button:hover::before {
     width: 25px;
 }
-.stroke {
+.button::after {
+    content: '';
+    display: block;
     border: 2px solid crimson;
     border-radius: 20px;
     height: 30px;
     width: 30px;
     position: absolute;
-    top: 4px;
-    left: 5px;
+    top: 3px;
+    left: 4px;
     transition: width 0.3s;
 }
-.button:hover .stroke {
+.button:hover::after {
     width: 95%;
 }

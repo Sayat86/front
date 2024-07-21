@@ -10,14 +10,17 @@
     flex-direction: column;
     width: 200px;
 }
+
 .parent_hov2 {
     color: blue;
     text-decoration: none;
     margin-left: 20px;
     position: relative;
-height: 30px;
+    height: 30px;
 }
-.line_hov2 {
+.parent_hov2::before {
+    content: '';
+    display: block;
     background: crimson;
     width: 10px;
     height: 10px;
@@ -27,7 +30,7 @@ height: 30px;
     top: 5px;
     left: -15px;
 }
-.parent_hov2:hover .line_hov2 {
+.parent_hov2:hover::before {
     width: 30px;
     transition: width 0.8s;
 }

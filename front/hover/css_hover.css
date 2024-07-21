@@ -17,14 +17,16 @@
     margin-left: 10px;
     position: relative;
 }
-.line_hov {
+.parent_hov::after {
+    content: '';
+    display: block;
     background: crimson;
     width: 20px;
     height: 5px;
     position: absolute;
     left: -10px;
 }
-.parent_hov:hover .line_hov {
+.parent_hov:hover::after {
     width: 200px;
     transition: 0.5s;
 }
