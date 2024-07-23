@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.inside_upwork {
+    width: 1500px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+.up_work_par {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 2000px;
+    background: antiquewhite;
+}
+.find_par {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.work1 {
+    color: green;
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 5px;
+    padding-right: 25px;
+}
+.find_par nav ul li {
+    position: relative;
+    float: left;
+}
+.find_par nav ul li a {
+    padding: 15px;
+    color: black;
+    font-size: 16px;
+    display: block;
+}
+.find_par nav ul li a:hover {
+    color: green;
+}
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background-color: lemonchiffon;
+    display: none;
+}
+nav ul li ul li {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.1);
+}
+nav ul li ul li ul {
+    left: 180px;
+    top: 0;
+}
+nav ul li:hover > ul {
+    display: initial;
+}
+
+
+
+.find {
+    color: black;
+    width: 100px;
+    display: inline-block;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.find_par2 {
+    display: flex;
+}
+
+.log {
+    color: black;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.sign {
+    background-color: green;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.sign:hover {
+    background-color: goldenrod;
+}
