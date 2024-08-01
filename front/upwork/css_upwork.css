@@ -12,6 +12,7 @@
     margin: auto;
     flex-direction: row;
     justify-content: center;
+    position: relative;
 }
 .up_work_par {
     display: inline-flex;
@@ -33,50 +34,137 @@
     padding-bottom: 5px;
     padding-right: 25px;
 }
-.find_par nav ul li {
-    position: relative;
-    float: left;
+.main_str {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-.find_par nav ul li a {
+
+.hov.find_in1:hover {
+    display: flex;
+}
+
+.main_str_in {
     padding: 15px;
     color: black;
     font-size: 16px;
     display: block;
 }
-.find_par nav ul li a:hover {
-    color: green;
+.main_str_in:hover {
+    color: #45a049;
 }
-nav ul li ul {
+
+.find_in1 {
+    display: none;
+    flex-direction: row;
+    /*background-color: #4caf50;*/
     position: absolute;
     left: 0;
-    width: 180px;
-    background-color: lemonchiffon;
-    display: none;
-}
-nav ul li ul li {
+    top: 50px;
     width: 100%;
-    border: 1px solid rgba(0,0,0,.1);
 }
-nav ul li ul li ul {
-    left: 180px;
-    top: 0;
-}
-nav ul li:hover > ul {
-    display: initial;
+.find_in1:hover {
+    display: flex;
 }
 
+.in_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid crimson;
+}
+.in_right {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
 
-
-.find {
+.find_in1_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     color: black;
-    width: 100px;
-    display: inline-block;
-    padding: 10px 5px;
-    text-align: center;
-    text-decoration: none;
+    width: 300px;
+    height: 100px;
+    /*background-color: lemonchiffon;*/
+    padding: 25px 20px;
 }
+.find_in1_1:hover {
+    background-color: darkgray;
+}
+.post {
+    color: black;
+}
+.post_green {
+    color: green;
+}
+.right1 {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 0px;
+}
+.post_green2 {
+    padding: 10px 0;
+    color: green;
+}
+
+
+
+
+
+
 .find_par2 {
     display: flex;
+    margin-top: 5px;
+}
+.search_par {
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid gray;
+    height: 40px;
+    width: 300px;
+    position: relative;
+}
+.search_par:hover {
+    background: gray;
+}
+.sear {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    background: none;
+
+}
+.sear:hover {
+    border-radius: 20px;
+    border: 1px solid gray;
+    background: white;
+    height: 40px;
+    width: 200px;
+}
+.tal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    color: black;
+    position: relative;
+}
+.tal:hover {
+    border-radius: 20px;
+    border: 1px solid gray;
+    background: white;
+    height: 40px;
+    width: 100px;
 }
 
 .log {
