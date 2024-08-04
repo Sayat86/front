@@ -92,6 +92,7 @@
 }
 .post {
     color: black;
+    padding: 0 0 10px 0px;
 }
 .post_green {
     color: green;
@@ -104,6 +105,20 @@
 .post_green2 {
     padding: 10px 0;
     color: green;
+}
+.right1_3 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 20px 60px;
+}
+.post_green3_3 {
+    color: black;
+    width: 500px;
+    padding: 5px 5px 5px 20px;
+    border-radius: 5px;
+}
+.post_green3_3:hover {
+    background-color: darkgray;
 }
 
 
