@@ -7,19 +7,20 @@
     text-decoration: none;
 }
 .inside_upwork {
-    width: 1500px;
+    width: 100%;
     display: flex;
     margin: auto;
     flex-direction: row;
     justify-content: center;
     position: relative;
+    border-bottom: 1px solid darkgray;
 }
 .up_work_par {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 2000px;
-    background: antiquewhite;
+    width: 1680px;
+    padding: 0px 0px;
 }
 .find_par {
     display: flex;
@@ -41,7 +42,7 @@
     align-items: center;
 }
 
-.hov.find_in1:hover {
+.hov:hover .find_in1 {
     display: flex;
 }
 
@@ -58,14 +59,12 @@
 .find_in1 {
     display: none;
     flex-direction: row;
-    /*background-color: #4caf50;*/
     position: absolute;
-    left: 0;
+    left: 0px;
     top: 50px;
     width: 100%;
-}
-.find_in1:hover {
-    display: flex;
+    padding-left: 100px;
+    border-bottom: 1px solid darkgray;
 }
 
 .in_left {
@@ -83,11 +82,9 @@
 .find_in1_1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     color: black;
     width: 300px;
     height: 100px;
-    /*background-color: lemonchiffon;*/
     padding: 25px 20px;
 }
 .find_in1_1:hover {
@@ -107,6 +104,156 @@
 .post_green2 {
     padding: 10px 0;
     color: green;
+}
+
+
+
+
+.in_left4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: 300px;
+    width: 600px;
+    padding: 20px;
+}
+.find_in3_1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.find_in3_1:hover {
+    background-color: darkgray;
+}
+.post3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    width: 600px;
+    margin-top: 15px;
+}
+.post3_1 {
+    font-size: 20px;
+    color: black;
+    padding-top: 20px;
+}
+.post3:hover {
+    background-color: darkgray;
+}
+.post_green5 {
+    font-size: 20px;
+    color: green;
+    margin-top: 20px;
+}
+
+
+
+
+
+.in2 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    height: 200px;
+    align-items: center;
+    width: 100%;
+}
+.post_green3 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0px;
+    color: black;
+}
+.in_right2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.in_right2:hover {
+    background-color: darkgray;
+}
+
+
+
+
+
+
+.find_par2 {
+    display: flex;
+    margin-top: 5px;
+}
+.search_par {
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid gray;
+    height: 40px;
+    width: 300px;
+}
+.search_par:hover {
+    background: gray;
+}
+.sear {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    background: none;
+
+}
+.sear:hover {
+    border-radius: 20px;
+    border: 1px solid gray;
+    background: white;
+    height: 40px;
+    width: 200px;
+}
+.tal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    color: black;
+}
+.tal:hover {
+    border-radius: 20px;
+    border: 1px solid gray;
+    background: white;
+    height: 40px;
+    width: 100px;
+}
+
+.log {
+    color: black;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.sign {
+    background-color: green;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.sign:hover {
+    background-color: goldenrod;
 }
 
 
